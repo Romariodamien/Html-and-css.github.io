@@ -7,13 +7,14 @@
     <p>today i tried some basics related to html</p>
     <a href="https://www.google.com/" target="_blank">serach with google</a>
     <div>
-        <a href="https://www.amazon.com/" target="_blank">Back to Amazon</a>
+        <a href="https://www.amazon.com/" target="_blank" class="amazon">Back to Amazon</a>
     </div>
-    <p>Nike Black Running Shoes</p>
-    <p>$39 - in stock</p>
+    <p class="Nike-text">Nike Black Running Shoes</p>
+    <p class="stock-price">$39 - in stock</p>
     <p>Free Delivery Tomorrow</p>
     <button class="Add-to-cart">Add to Cart</button>
-    <button>Buy now</button>
+    <button class="buy-now">Buy now</button>
+
 
 
 
@@ -60,6 +61,39 @@
           .Add-to-cart {
             margin-right: 8px;
           }
+        .Add-to-cart {
+            margin-right: 8px;
+            background-color: yellow;
+            height: 32px;
+            width: 120;
+            border: none;
+            border-radius: 15px;
+
+          }
+          .Nike-text{
+            font-size: x-large;
+            font-weight: bold;
+
+          }
+          .buy-now{
+            background-color: rgb(255, 164, 28);
+            height: 32px;
+            width: 120;
+            border: none;
+            border-radius: 15px;
+
+          }
+          .stock-price{
+            color: rgb(0, 118, 0);
+            font-weight: bolder;
+
+          }
+          .amazon{
+            color: rgb(0, 113, 133);
+
+          }
+
+            
 
             </style>
       
