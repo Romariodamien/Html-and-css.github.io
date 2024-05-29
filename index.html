@@ -19,7 +19,6 @@
 
 
 
-
     <div>  <button class="subscribe-button" >SUBSCRIBE</button>    <button class="Join-button">JOIN</button>     <button class="Tweet-button">TWEET</button>
         
     </div>
@@ -35,6 +34,12 @@
             margin-top: 20px;
            
         }
+        .subscribe-button:hover{
+            opacity: 0.8;
+        }
+        .subscribe-button:active{
+            opacity:0.4
+        }
         .Join-button{
             background-color: white;
             color: rgb(29, 29, 129);
@@ -44,7 +49,15 @@
             border-width: 1px;
             border-style: solid;
             border-color: rgb(29, 29, 129);
+            cursor: pointer;
             
+        }
+        .Join-button:hover{
+            background-color: rgb(29, 29, 129) ;
+            color: white;
+        }
+        .Join-button:active{
+            opacity: 0.4;
         }
         .Tweet-button{
     background-color: rgb(50, 176, 255);
@@ -57,20 +70,29 @@
     font-size: small;
     font-weight:bold;
          font-family: 'Times New Roman', Times, serif;
+         cursor:pointer;
           }  
-          
-        .Add-to-cart {
+          .Tweet-button:hover{
+            background-color:white ;
+            color: rgb(50, 176, 255); 
+        }
+        .Join-button:active{
+            opacity: 0.4;
+        }
+          .Add-to-cart {
             margin-right: 8px;
             background-color: yellow;
             height: 32px;
             width: 120;
             border: none;
             border-radius: 15px;
+            cursor: pointer;
 
           }
           .Nike-text{
             font-size: x-large;
             font-weight: bold;
+            cursor: pointer;
 
           }
           .buy-now{
@@ -79,24 +101,20 @@
             width: 120;
             border: none;
             border-radius: 15px;
+            cursor: pointer;
 
           }
           .stock-price{
             color: rgb(0, 118, 0);
             font-weight: bolder;
+            cursor: pointer;
 
           }
           .amazon{
             color: rgb(0, 113, 133);
+            cursor: pointer;
 
           }
 
-            
-
             </style>
       
-    
-
-
-
-    
