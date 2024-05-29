@@ -32,10 +32,13 @@
             border-radius: 2px;
             cursor: pointer;
             margin-top: 20px;
+            transition: opacity,0.15s;
            
         }
         .subscribe-button:hover{
-            opacity: 0.8;
+            background-color: white;
+            color:  rgb(200, 0, 0);
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.12);
         }
         .subscribe-button:active{
             opacity:0.4
@@ -50,11 +53,15 @@
             border-style: solid;
             border-color: rgb(29, 29, 129);
             cursor: pointer;
+            transition: backround-color,0.15s,color,0.15s;
+            margin-left: 8px;
+            margin-right: 8px;
             
         }
         .Join-button:hover{
             background-color: rgb(29, 29, 129) ;
             color: white;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.12);
         }
         .Join-button:active{
             opacity: 0.4;
@@ -71,12 +78,15 @@
     font-weight:bold;
          font-family: 'Times New Roman', Times, serif;
          cursor:pointer;
+         transition: backround-color,0.15s,color,0.15s;
+       
           }  
           .Tweet-button:hover{
             background-color:white ;
             color: rgb(50, 176, 255); 
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
         }
-        .Join-button:active{
+        .Tweet-button:active{
             opacity: 0.4;
         }
           .Add-to-cart {
@@ -87,8 +97,18 @@
             border: none;
             border-radius: 15px;
             cursor: pointer;
+            transition: background-color,0.15s,color,0.15s;
 
           }
+          .Add-to-cart:hover{
+            background-color: white;
+            color: black;
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+          }
+          .Add-to-cart:active{
+            opacity:0.4;
+          }
+
           .Nike-text{
             font-size: x-large;
             font-weight: bold;
@@ -102,8 +122,19 @@
             border: none;
             border-radius: 15px;
             cursor: pointer;
+            transition: background-color,0.15s,color,0.15s;
 
           }
+          .buy-now:hover{
+            background-color: white;
+            color: black;
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+          }
+          .buy-now:active{
+            opacity: 0.4;
+            
+          }
+          
           .stock-price{
             color: rgb(0, 118, 0);
             font-weight: bolder;
